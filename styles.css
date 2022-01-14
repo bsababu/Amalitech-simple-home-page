@@ -1,0 +1,163 @@
+body {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: auto;
+    background-color:beige;
+    
+}
+
+.container {
+    text-align: center;
+    max-width: 1400px;
+    align-content: center;
+    margin:auto;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    height: 270px;
+    background-image: url('./img/middle-small.jpg');
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    position: fixed;  
+    background-color: #fff;
+    height: 70px;
+    
+}
+
+.header img {
+    width: 70px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#nav-right {
+    margin-left: auto;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+nav{
+    color: white;
+    border-radius: 2px;
+    font-size: 28px;
+    justify-content: space-between;
+}
+nav a:link {
+    text-decoration: none ;
+  }
+nav a :hover{
+    text-decoration: underline;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+#about {
+    width: 800px;
+    text-align: center;
+    justify-content: center;
+    
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.vl {
+    border-left: 6px solid chocolate;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    margin:auto;
+    padding-top: 5px;
+}
+
+
+h3 {
+    font-size: 40px;
+}
+span {
+    color:chocolate;
+}
+
+#program {
+    text-align: center;
+    background-image: url('./img/middle-medium.jpg');
+    background-repeat: no-repeat;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+#pro-intro{
+    width: 100%;
+}
+.programs-top {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.card-1 {
+    padding-top: 7px;
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding-right: 5px;
+    box-shadow: 2 2 11px rgba(33,33,33,.2); 
+}
+.card-1:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+}
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.trainees {
+    /* border-style: outset; */
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 80px;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 330px;
+    height: 200px;
+}
+
+.card img:hover {
+    transform: scale(1.5);
+}
+
+.footer {
+    background-color: black;
+    display: inline-flex;
+    color: wheat;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+}
